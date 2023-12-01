@@ -1,0 +1,13 @@
+# Arquivos temporários
+obj/
+bin/
+
+# Arquivos de compilação
+*.exe
+*.pdb
+
+# Arquivos de configuração do Visual Studio
+.vscode/
+*.user
+*.suo
+*.sln.docstates

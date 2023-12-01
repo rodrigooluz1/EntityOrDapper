@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Interface\" />
+    <None Remove="Interface\IRepositories\" />
+    <None Remove="Interface\IServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Interface\IRepositories\" />
+    <Folder Include="Interface\IServices\" />
+  </ItemGroup>
+</Project>
